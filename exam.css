@@ -1,0 +1,58 @@
+body {
+    background-color: #82e0fd;
+}
+
+
+.short-input {
+    width: 400px; 
+}
+
+.shorter-input{
+    width: 260px;
+    margin-left: -190px;
+}
+
+.start{
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.start:hover {
+    transform: scale(1.05); 
+}
+
+
+.btnz{
+    margin-left: 160px;
+}
+
+button{
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.sec-con{
+    width: 1100px;
+    border-radius: 8px;
+    height: 500px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sec-con:hover {
+    transform: scale(1.05); 
+}
+
+
+.fade-out {
+    transition: opacity 1s ease; 
+    opacity: 0; 
+}
+
+.alert {
+    transition: transform 0.2s ease-in-out; 
+}
+
+.alert:hover {
+    transform: scale(1.05); 
+}
