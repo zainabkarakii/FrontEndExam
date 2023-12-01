@@ -37,12 +37,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if (selectedList) {
                 const newItem = document.createElement('div');
-                newItem.classList.add('alert', itemClass); // Add 'alert' class for styling
+                newItem.classList.add('alert', itemClass);
                 newItem.innerText = message;
 
-                // Attach click event listener to the newly created alert
+               
                 newItem.addEventListener('click', function(event) {
-                    // Your logic to move the alert to the respective list
+                   
                 });
 
                 selectedList.appendChild(newItem);
@@ -61,12 +61,12 @@ document.addEventListener("DOMContentLoaded", function() {
             const message = `${listType}! - ${inputValue}`;
 
             const newItem = document.createElement('div');
-            newItem.classList.add('alert', 'bg-info'); // Add 'alert' class for styling
+            newItem.classList.add('alert', 'bg-info'); 
             newItem.innerText = message;
 
-            // Attach click event listener to the newly created alert
+            
             newItem.addEventListener('click', function(event) {
-                // Your logic to move the alert to the respective list
+                
             });
 
             listOfFruitsAndLegumesDiv.appendChild(newItem);
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
     }
 
-    // Event listener to move alerts between lists
+    
     document.querySelector('.list-of-fruits-legumes').addEventListener('click', function(event) {
         const clickedAlert = event.target.closest('.alert');
 
